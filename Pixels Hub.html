@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Pixels Hub</title>
+	<style>
+		body {
+    		background-color: white;
+		}
+
+		.header {
+		    background-color: #1F2937;
+		}
+
+		.header_div {
+		    display: flex;
+		    flex-direction: column;
+		}
+
+		.header_div img {
+		    width: 100px;
+		    height: auto;
+		    margin-left: 15px;
+		    margin-right: auto;
+		}
+
+		.header_div1 {
+		    display: flex;
+		    align-content: center;
+		}
+		.header_div2_button {
+			padding: 10px 20px;
+			font-size: 20px;
+			font-weight: bolder;
+			border-radius: 15px;
+			cursor: pointer;
+			transition: 0.3s ease;
+		}
+		.header_div2_button:hover, .action_button:hover {
+			background-color: #FC6A03;
+		}
+
+		.header_buttons {
+		    background-color: transparent;
+		    position: relative;
+		    color: white;
+		    padding: 0 7px;
+		    font-size: 12pt;
+		    font-weight: bolder;
+		    border-radius: 12px;
+		    border: none;
+		    cursor: pointer;
+		    margin-right: 20px;
+		    transition: 0.3s ease;
+		}
+		.header_buttons:hover {
+			color: #FC6A03;
+			transform: scale(1.5);
+		}
+
+		.header_div2 {
+		    display: flex;
+		    margin-left: 35px;
+		    justify-content: space-between;
+		}
+
+		.header_details {
+		    color: white;
+		    margin-left: 50px;
+		}
+
+		.header_details h1 {
+		    font-size: 48px;
+		    font-weight: bolder;
+		    color: #F9FAF8;
+		}
+		.header_details p {
+			font-size: 20px;
+		}
+		.header_card {
+		    width: 500px;
+		    height: 300px;
+		    background-image: url('The Pixels.png');
+		    background-size: cover;
+		    background-position: center;
+		    border-radius: 10px;
+		    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+		    padding: 20px;
+		    margin: 20px;
+		}
+
+		.main_content {
+		    padding: 20px;
+		    text-align: center;
+		}
+
+		.card_container {
+		    display: flex;
+		    justify-content: space-between;
+		    margin-right: 5px;
+		    flex-wrap: wrap;
+		}
+
+		.card {
+		    width: 300px;
+		    height: 500px;
+		    margin: 10px;
+		    padding: 15px;
+		    background-color: #fff;
+		    border-radius: 15px;
+		    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+		}
+
+		.card_description {
+			text-align: center;
+			margin-top: 10px;
+		}
+		.card img {
+			width: 100%;
+			height: 100%;
+			transition: 0.3s ease;
+		}
+		.card img:hover {
+			transform: scale(1.5);
+		}
+		.main_content2 {
+			background-color: rgba(252,106,3,0.8);
+			text-align: center;
+			border-radius: 10px;
+			color: #1F2937;
+			font-size: 24px;
+			font-style: italic;
+
+		}
+		.action_call {
+			display: flex;
+			justify-items: center;
+			justify-content: space-between;
+			margin-left: 300px;
+			background-color: #0b0f14;
+			width: 800px;
+			height: 150px;
+			border-radius: 15px;
+			align-items: center;
+
+		}
+		.action_content {
+			text-align: center;
+			text-justify: justify;
+			margin-left: 30px;
+			color: #fff;
+		}
+		.action_button {
+			padding: 10px 20px;
+			font-size: 20px;
+			font-weight: bolder;
+			margin-right: 80px;
+			border-radius: 15px;
+			transition: 0.3s ease;
+
+		} 
+		.footer {
+			background-color:#1F2937;
+			text-align: center;
+			color: #FC6A03;
+			padding: 5px;
+			border-radius: 10px;
+			margin-top: 18px;
+		}
+
+	</style>
+</head>
+<body>
+	<!-- This is the header content -->
+	<header class="header">
+		<div class="header_div">
+			<div class="header_div1">
+				<img src="The Pixels.png">
+				<button class="header_buttons">HOME</button>
+				<button class="header_buttons">CONTACT US</button>
+				<button class="header_buttons">ABOUT US</button>
+			</div>
+
+			<div class="header_div2">
+				<div class="header_details">
+					<h1 style="color: #FC6A03;">Freeze the Moments... <br> Turn Them into Masterpieces</h1>
+					<p>With our cutting-edge equipment, and professional photographers, we believe in capturing not only photographs,but also emotions,<br> tales and life-long memories. Book with us now and allows us save your memories in eternal beauty. </p>
+					<button class="header_div2_button">BOOK!</button>
+				</div>
+				<div class="header_card">
+			    </div>
+			</div>
+		</div>
+	</header>
+	<div class="main_content">
+		<h2>FROZEN MOMENTS(PHOTO COURTESY)</h2>
+		<div class="card_container">
+			<div class="card">
+				<img src="TAU_2523 (1).JPG">
+			</div>
+			<div class="card">
+				<img src="RKY_2107.jpg">
+			</div>
+			<div class="card">
+				<img src="RKY_2128.jpg">
+			</div>
+			<div class="card">
+				<img src="TAU_2519.JPG">
+			</div>
+			<div class="card">
+				<img src="The Pixels Logo1.png">
+			</div>
+			<div class="card">
+				<img src="TAU_2560.JPG">
+			</div>
+		</div>
+	</div>
+	<div class="main_content2">
+		<p>"I want to express my gratitude for such a wonderful photo session! <br> The pictures are better than I could have imagined. In each photo, <br> your professionalism, inventiveness, and meticulousness are genuinely evident. <br> I am thrilled with the outcome.I'm excited to collaborate <br> with you once more in the future!" <span style="font-size: 28px;">-The Fusionist</span></p>
+	</div>
+
+	<div class="action_call">
+		<div class="action_content">
+			<h2>Call to Action! It's time!</h2>
+			<p style="font-size: 20px; font-weight: bold;">Book with us for a quality photoshoot!!</p>
+		</div>
+		
+		<button class="action_button">BOOK</button>
+	</div>
+
+	<footer class="footer">
+		  <p>&copy; 2024 ThePixelsHub.All rights reserved.</p>
+	</footer>
+		
+</body>
+</html>
